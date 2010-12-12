@@ -69,3 +69,7 @@ depcomp
 
 .deps
 .libs
+
+# Misc
+*.orig
+bin/*
