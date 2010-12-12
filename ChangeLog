@@ -2,10 +2,7 @@ The obligatory revision history...
 
 Changes from .... (V3.1) to 12/5/2010 (V3.1.2)
 
-1) Removed Microsoft build stuff and created a simple Makefile.
-2) Removed legacy README files, renamed others.
-3) Removed getopt.c and getopt.h.
-4) No base code changes made.
+1) Created an Autotools project.
 
 ------------------------------------------------------------------------
 

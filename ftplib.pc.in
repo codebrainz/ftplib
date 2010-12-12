@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: FTPLib
+Description: FTP client library
+Version: @PACKAGE_VERSION@
+Libs: -L${libdir} -lftp
+Cflags: -I${includedir}

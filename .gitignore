@@ -1,0 +1,71 @@
+#
+# .gitignore for libfg2
+# 
+
+# Compiled
+*.o
+*.os
+*.so
+*.a
+*.com
+*.class
+*.dll
+*.exe
+*.pyc
+*.lo
+*.la
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and db
+*.log
+*.sql
+*.sqlite
+*.dblite
+
+# OS files
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# New sub-projects
+src/gtkcamera
+src/pyfg2
+
+# Autotools stuff
+
+*~
+
+Makefile
+Makefile.in
+
+aclocal.m4
+autom4te.cache/
+
+config.guess
+config.log
+config.status
+config.sub
+
+configure
+
+config.h
+stamp-h1
+
+install-sh
+libtool
+ltmain.sh
+missing
+depcomp
+
+.deps
+.libs
